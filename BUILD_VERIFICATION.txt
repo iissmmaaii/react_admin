@@ -1,0 +1,5 @@
+Verification performed before packaging:
+- npm install: passed
+- TypeScript type check: passed
+- Vite production build: passed
+- Vite development server HTTP smoke test: passed

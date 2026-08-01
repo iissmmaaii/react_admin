@@ -1,0 +1,21 @@
+﻿node_modules
+dist
+.env
+*.local
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Dependencies and cache
+node_modules/
+.npm-cache/
+
+# Build output
+dist/
+build/
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*.log

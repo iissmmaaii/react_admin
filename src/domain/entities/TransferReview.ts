@@ -1,0 +1,30 @@
+export interface TransferReview {
+  id: string;
+  clientRequestId: string;
+  senderUserId: string;
+  senderUserEmail?: string | null;
+  receiverUserId: string;
+  amountMinor: number;
+  currency: string;
+  status: string;
+  fabricTxId?: string | null;
+  failureReason?: string | null;
+  ipAddress?: string | null;
+  deviceId?: string | null;
+  userAgent?: string | null;
+  aiDecision?: string | null;
+  aiRiskLevel?: string | null;
+  aiRiskScore?: number | null;
+  aiReason?: string | null;
+  aiCustomerMessage?: string | null;
+  aiAdminReport?: string | null;
+  aiSignalsJson?: string | null;
+  aiRawResponseJson?: string | null;
+  aiCheckedAt?: string | null;
+  adminDecision?: string | null;
+  adminNote?: string | null;
+  adminUserId?: string | null;
+  adminReviewedAt?: string | null;
+  createdAt: string;
+  completedAt?: string | null;
+}
